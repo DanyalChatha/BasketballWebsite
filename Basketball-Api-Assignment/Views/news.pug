@@ -1,0 +1,9 @@
+extends layout
+
+block layout-content
+  h1.page-title Nba News 
+  each n in news
+    .news-item
+      h2.news-title #{n.title}
+      p.news-source Source: #{n.source}
+      a.news-link(href=n.url, target="_blank") Read More
