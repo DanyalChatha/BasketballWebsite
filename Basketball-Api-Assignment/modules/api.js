@@ -9,7 +9,7 @@ async function getNews(){
     {
       method: "GET",
       headers: {
-        'X-RapidAPI-Key': '9b7eb1d81emsh0e6ad11d53d3023p148aefjsn1eba803c792c',  //API KEY
+        'X-RapidAPI-Key': '',  //API KEY
         'X-RapidAPI-Host': 'nba-latest-news.p.rapidapi.com'
       }
     }
@@ -24,7 +24,7 @@ async function getLiveScore(){
     {
       method: "GET",
       headers: {
-        'X-RapidAPI-Key': '5a8f9216c3mshec7f2b88007cee2p1a6878jsnffdb038eebc9',  //API KEY
+        'X-RapidAPI-Key': '',  //API KEY
         'X-RapidAPI-Host': 'tank01-fantasy-stats.p.rapidapi.com'
       }
     } 
