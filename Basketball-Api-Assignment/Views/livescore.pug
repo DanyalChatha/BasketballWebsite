@@ -1,0 +1,21 @@
+extends layout 
+
+block layout-content 
+  h1.page-title Live Scores
+  each s in score
+    div#scoreboard.scoreboard
+      div.away
+        p.team #{s.away}
+        if s.awayPts !== ''
+          p.score #{s.awayPts}
+        else
+          p.score 0
+      div.game-info
+        p.game-clock #{s.gameClock}
+        p.game-status #{s.gameStatus}
+      div.home
+        p.team #{s.home}
+        if s.homePts !== ''
+          p.score #{s.homePts}
+        else
+          p.score 0

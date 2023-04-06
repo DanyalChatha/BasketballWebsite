@@ -17,14 +17,14 @@ app.get("/", (request, response) => {
   response.render("index", { title: "Home" });
 });
 
- app.get("/Scores", async (request, response) => {
-  let scoreDetail = await rapidapi.getScore();
-  response.render("score", { title: "Scores", score: scoreDetail });
-});
-
 app.get("/News", async (request, response) => {
   let latestNews = await rapidapi.getNews();
   response.render("news", { title: "News", news: latestNews });
+});
+
+app.get("/LiveScore", async (request, response) => {
+  let liveScore = await rapidapi.getLiveScore();
+  response.render("livescore", { title: "Live Score", score: liveScore });
 });
 
 //Connect to Public folder
