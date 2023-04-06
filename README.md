@@ -11,4 +11,4 @@
 - once the key is copied go to the file called api.js and paste it in the empty quotation mark where it says ``` X-RapidAPI-Key: ``` Make sure you passed it for both APIs
 - Make sure to subscribe to both of RapidApi APIs (https://rapidapi.com/savey03/api/nba-latest-news) and (https://rapidapi.com/tank01/api/tank01-fantasy-stats)
 - Open up the terminal and enter ``` npm run dev ```
-- In the terminal a ```http://localhost:8888``` appears to click on that link to see the basketball website.
+- In the terminal a ```http://localhost:8888``` will appears sp click on that link to see the basketball website.
